@@ -1,0 +1,33 @@
+{
+  "name": "@jarred/cpu",
+  "version": "1.0.1",
+  "description": "Process resource usage measurement utility",
+  "module": "index.ts",
+  "type": "module",
+  "bin": {
+    "cpu": "index.ts"
+  },
+  "files": [
+    "index.ts",
+    "README.md"
+  ],
+  "keywords": [
+    "cpu",
+    "memory",
+    "performance",
+    "benchmark",
+    "profiling",
+    "resource-usage",
+    "time"
+  ],
+  "author": "Jarred Sumner",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/jarred/cpu.git"
+  },
+  "devDependencies": {
+    "@types/bun": "latest",
+    "typescript": "^5"
+  }
+}
