@@ -59,11 +59,13 @@ More examples:
 # Time a script
 cpu ./my-script.sh
 
-# Compare Node.js and Bun
-cpu node -e "console.log('Hello world')"
+# Compare Bun & Node.js
 cpu bun -e "console.log('Hello world')"
+cpu node -e "console.log('Hello world')"
+
 
 # Time a build process
+cpu bun run build
 cpu npm run build
 ```
 
