@@ -96,7 +96,7 @@ Differences:
 
 ## How it works
 
-This tool uses Bun's `resourceUsage()` API, which accesses the same underlying `getrusage` system call that the standard Unix `time` command uses. This means you get the same accurate metrics, just displayed in a more readable format. The implementation is efficient with minimal overhead to the process being measured.
+This tool uses Bun's `Bun.spawn`'s `resourceUsage()` API, which accesses the same underlying `getrusage` system call that the standard Unix `time` command uses. This means you get the same accurate metrics, just displayed in a more readable format. The implementation is efficient with minimal overhead to the process being measured.
 
 ### Options
 
